@@ -1,7 +1,9 @@
 alert("Este é o jogo do número secreto");
-let secretNumber = 5;
-let chute = prompt("Digite um número entre 1 e 10");
+let secretNumber = 9;
+let bet = prompt("Digite um número entre 1 e 10");
 
-if (chute == secretNumber) {
-    console.log("Acertou miserávi");
+if (bet == secretNumber) {
+    alert(`Acertou miserávi, era o número ${secretNumber}`);
+} else {
+    alert("Poxa... Tente de novo!")
 }
